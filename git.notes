@@ -1,0 +1,31 @@
+-= Git  =-
+[√] introduction:
+        git is a DVCS (distributed version control system)
+        glossary:
+            git:
+                open source ,keeps tracks changes and compares
+            branch:
+                mirror  of current repository,great when adding new feature
+            clone:
+                copy a repository and make a local file
+            push:
+                local files to remote repository 
+            merge:
+                merge a branch to master branch
+            pull:
+                pull latest code/modified from remote repository to local fetch and merge
+            fetch:
+
+        global scope:
+            everything has access to introduction
+
+            [bash]
+                git config --global user.name "v370r" 
+                git config user.name //to check it saved or not?
+                git config --global user.email "vectorvijay5@gmail.com" //both must match with bit bucket or github
+            [end]
+            
+        git:
+            git init 
+            ls -a //to show hidden files in cmd
+            touch index.html //use touch to create file
